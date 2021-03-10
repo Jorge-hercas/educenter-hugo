@@ -1,8 +1,12 @@
 ---
-title: "Latest News"
-draft: false
-# page title background image
-bg_image: "images/backgrounds/page-title.jpg"
-# meta description
-description : "this is meta description"
+title: Latest News
+bg_image: images/backgrounds/page-title.jpg
+description: this is meta description
+date: 2021-03-04T06:00:00+00:00
+
 ---
+\`\`\`{r}
+
+c <- c(1,2,3)
+
+\`\`\`
