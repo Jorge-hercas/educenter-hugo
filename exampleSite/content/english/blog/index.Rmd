@@ -1,0 +1,225 @@
+---
+author: Jorge Hernández
+categories:
+- R
+date: "2021-02-22T00:00:00Z"
+description: Este ejercicio tiene como objetivo enseñar al lector a desestacionalizar una serie y aplicarlo a un gráfico en R.
+draft: false
+image: images/Rlogo.png
+tags:
+- Gráficos
+- Series de tiempo
+- Data análisis
+title: Creación de gráficos desestacionalizados interactivos.
+type: post
+bg_image: images/net.jpg
+---
+Las series de tiempo son una clase de datos que están estructuradon en el tiempo (valga la redundancia), es decir, cada observación se refiere a un periodo en particular y estas tienden a ser menos volátiles que los datos de corte transversal. Estas suelen tener ciertos componentes que las caracterizan, como son:
+
+1. Tendencia: La tendencia puede definirse como la trayectoría que sigue la serie de tiempo en el largo plazo, o el cambio en la media, la cual suele ser un movimiento suave de la serie a largo plazo.
+
+2. Componente estacional: Las series de tiempo en el corto plazo suelen tener un componente denominado estacional, el cual hará que incrementen o disminuyan según el periodo de tiempo sin cambiar su tendencia de largo plazo. Por ejemplo, supongamos las ventas de una empresa de juguetes. Estas tenderan a un cierto nivel durante la mayoría del año, pero en diciembre y épocas navideñas tenderán a incrementar.
+
+3. Componente aleatorio: Este componente (conocido también como “Random Walk” o caminata aleatoria, aunque este nombre suele ser usado para series de tiempo sin tendencia o componente estacional, como el precio de las acciones de una compañía) es algo que no puede ser predecido por medio de modelos de series de tiempo, ya que son eventos fortuitos que ocurren de manera sorpresiva, como un desastre natural, una pandemia, etc.
+
+
+Dados los componenentes anteriores, podemos decir que una ecuación de serie de tiempo está dada por:
+
+![](/images/blog/tau.png)
+Donde *t* es la tendencia de largo plazo, *epsilon* es el componente estacional y *I* en *t* es el componente aleatorio.
+
+Ahora, no todas las series de tiempo son estacionarias. Para que una serie de tiempo se considere estacionaria, su media y varianza deben ser constantes en el tiempo, es decir:
+
+![](/images/blog/tau2.png)
+
+Para la matriz de varianzas y covarianzas. Es importante mencionar que de no tener una serie con estacionariedad, no tendría sentido hacer el siguiente procedimiento para desestacionalizar una serie.
+
+Existen diversos métodos para desestacionalizar una serie de tiempo, como el método analítico de análisis de tendencia por mínimos cuadrados, pero el que usaremos en este caso es el método de medias móviles, el cual consiste en obtener una promedios de ciertos grupos de periodos de la serie de tiempo, tal que:
+
+![](/images/blog/tau3.png)
+
+O bien, generalizando:
+
+![](/images/blog/tau4.png)
+
+Este método tiene sus limitantes, ya que hay que considerar que al obtener promedios de los valores originales entonces perderemos valores, por lo que no es recomendable para series de tiempo de periodos cortos.
+
+Vamos con el ejercicio en R. Empezamos cargando las librerias necesarias:
+
+```{r message=FALSE, warning=FALSE}
+#Instalación en caso de no tenerlas
+#install.packages("ggseas")
+#install.packages("ggplot2")
+#install.packages("tseries")
+#install.packages("plotly")
+
+
+library(ggseas)
+library(readxl)
+library(ggplot2)
+library(tseries)
+library(plotly)
+```
+
+Ahora, usaremos datos de contagios diarios de Covid-19 para el caso de México disponibles en la página de la [OMS](https://covid19.who.int). Cargamos la base de datos:
+
+```{r}
+datacovid <- read_excel("/Users/jorge/Desktop/Trabajo/Página web/sitio web estadistica/content/post/2020-12-01-r-rmarkdown/index.en_files/datacovid.xlsx")
+datacovid
+
+#Leemos la base
+attach(datacovid)
+```
+
+Ahora, a veces R suele tener problemas para leer el vector de fechas debido a que las páginas que proporcionan la base de datos usan otro formato, por lo que para evitar este problema vamos a crear un vector de fechas de la siguiente manera (considerando la fecha inicial y la fecha final de la base de datos):
+
+```{r}
+Fecha1<-seq(as.Date("2020-02-28"), as.Date("2021-01-16"), by = "day")
+```
+
+Creamos un data frame que incluya el nuevo vector de fechas y los datos a utilizar:
+
+```{r}
+Datos_covid<-data.frame(Fecha1, `Casos nuevos`, `Casos totales`)
+```
+
+Graficamos un GGplot simple:
+
+```{r}
+ggplot(Datos_covid, aes( x = Fecha1, y = `Casos nuevos`) ) + 
+  geom_line(size = 0.5, color = "darkblue") 
+```
+
+Cambiamos el fondo, agregamos nombres a los ejes y agregamos títulos y subtítulos:
+
+```{r}
+ggplot(Datos_covid, aes( x = Fecha1, y = `Casos nuevos`) ) + 
+  geom_line(size = 0.5, color = "darkblue") +
+  theme_bw() + 
+  theme(legend.position = "none") +
+  theme(legend.title = element_blank()) +
+  guides(col = guide_legend(nrow = 1, byrow = TRUE)) + 
+  #Nombre de los ejes
+  xlab("Periodo") + 
+  ylab("Casos nuevos diarios")+ 
+  #Ajuste de tamaños
+  theme(plot.title = element_text(size = 11, face = "bold", hjust = 0)) + 
+  theme(plot.subtitle = element_text(size = 10, hjust = 0)) + 
+  theme(plot.caption = element_text(size = 10, hjust = 0)) +
+  theme(plot.margin = unit(c(1,1,1,1), "cm")) +
+   #Títulos y subtitulos
+  labs(
+    title = "Casos nuevos de COVID-19 en México.",
+    subtitle = "Valores diarios.",
+    caption = "Fuente: Elaboración propia con datos de WHO. \nNotas: Datos gubernamentales."
+  )
+```
+
+Ahora, agregamos una linea desestacionalizada con la función "stat_rollapplyr" del paquete "ggseas":
+
+```{r}
+ggplot(Datos_covid, aes( x = Fecha1, y = `Casos nuevos`) ) + 
+  geom_line(size = 0.5, color = "darkblue") +
+  stat_rollapplyr(width = 12, align = "center", col = "Darkred", size = 1)+
+  theme_bw() + 
+  theme(legend.position = "none") +
+  theme(legend.title = element_blank()) +
+  guides(col = guide_legend(nrow = 1, byrow = TRUE)) + 
+  xlab("Periodo") + 
+  ylab("Casos nuevos diarios")+ 
+  theme(plot.title = element_text(size = 11, face = "bold", hjust = 0)) + 
+  theme(plot.subtitle = element_text(size = 10, hjust = 0)) + 
+  theme(plot.caption = element_text(size = 10, hjust = 0)) +
+  theme(plot.margin = unit(c(1,1,1,1), "cm")) +
+  labs(
+    title = "Casos nuevos de COVID-19 en México.",
+    subtitle = "Valores diarios.",
+    caption = "Fuente: Elaboración propia con datos de WHO. \nNotas: Datos gubernamentales."
+  )
+```
+
+Podemos cambiar los colores para denotar con mayor claridad la serie desestacionalizada:
+```{r}
+ggplot(Datos_covid, aes( x = Fecha1, y = `Casos nuevos`) ) + 
+  geom_line(size = 0.5, color = "grey74") +
+  stat_rollapplyr(width = 12, align = "center", col = "Darkred", size = 1)+
+  theme_bw() + 
+  theme(legend.position = "none") +
+  theme(legend.title = element_blank()) +
+  guides(col = guide_legend(nrow = 1, byrow = TRUE)) + 
+  xlab("Periodo") + 
+  ylab("Casos nuevos diarios")+ 
+  theme(plot.title = element_text(size = 11, face = "bold", hjust = 0)) + 
+  theme(plot.subtitle = element_text(size = 10, hjust = 0)) + 
+  theme(plot.caption = element_text(size = 10, hjust = 0)) +
+  theme(plot.margin = unit(c(1,1,1,1), "cm")) +
+  labs(
+    title = "Casos nuevos de COVID-19 en México.",
+    subtitle = "Valores diarios.",
+    caption = "Fuente: Elaboración propia con datos de WHO. \nNotas: Datos gubernamentales."
+  )
+```
+
+Como podemos observar, la serie desestacionalizada pierde valores tanto al principio como al final debido a la obtención de los promedios, sin embargo, debido a la gran cantidad de datos que tenemos en este caso, esto no resulta ser un inconveniente demasiado grave, pero si debe tomarse en cuenta con series que cuentes con una menor cantidad de datos.
+
+Ahora, para hacer interactiva la gráfica haremos de la función "Ggplotly" del paquete "Plotly":
+
+```{r}
+#Convertimos a la gráfica en un objeto
+GRAFCOVID<- ggplot(Datos_covid, aes( x = Fecha1, y = `Casos nuevos`) ) + 
+  geom_line(size = 0.5, color = "grey74") +
+  stat_rollapplyr(width = 12, align = "center", col = "Darkred", size = 1)+
+  theme_bw() + 
+  theme(legend.position = "none") +
+  theme(legend.title = element_blank()) +
+  guides(col = guide_legend(nrow = 1, byrow = TRUE)) + 
+  xlab("Periodo") + 
+  ylab("Casos nuevos diarios")+ 
+  theme(plot.title = element_text(size = 11, face = "bold", hjust = 0)) + 
+  theme(plot.subtitle = element_text(size = 10, hjust = 0)) + 
+  theme(plot.caption = element_text(size = 10, hjust = 0)) +
+  theme(plot.margin = unit(c(1,1,1,1), "cm")) +
+  labs(
+    title = "Casos nuevos de COVID-19 en México.",
+    subtitle = "Valores diarios.",
+    caption = "Fuente: Elaboración propia con datos de WHO. \nNotas: Datos gubernamentales."
+  )
+
+#Lo volvemos interactivo:
+
+#ggplotly(GRAFCOVID)
+
+
+```
+
+
+### [El artículo completo con el gráfico final interactivo se encuentra en el siguiente link](https://rpubs.com/Jorge_981222/grafinter)
+
+
+
+# Bibliografia
+
+[1] Brockwell, P. J., Davis, R. A., & Calder, M. V. (2002). Introduction to time series and forecasting (Vol. 2, pp. 3118-3121). New York: springer.
+
+[2] Granger, C. W., & Joyeux, R. (1980). An introduction to long-memory time series models and fractional differencing. Journal of time series analysis, 1(1), 15-29.
+
+[3] Chatfield, C., & Xing, H. (2019). The analysis of time series: an introduction with R. CRC press.
+
+[4] Oksendal, B. (2003). Stochastic differential equations. In Stochastic differential equations (pp. 65-84). Springer, Berlin, Heidelberg.
+
+[5] Enders, W. (2008). Applied econometric time series. John Wiley & Sons.
+
+[6] Vazquez Oliva Benjamín. (2020). Notas de Clase: Series de Tiempo. Ciudad de México. UNAM.
+
+
+
+
+
+
+
+
+
+
+
+
+
