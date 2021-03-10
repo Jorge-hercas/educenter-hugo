@@ -4,7 +4,6 @@ bg_image = "/images/scholarship/scholarship-item-3.jpg"
 categories = []
 date = 2021-03-11T06:00:00Z
 description = ""
-draft = true
 image = "/images/research/research-4.jpg"
 tags = []
 title = "markdown"
