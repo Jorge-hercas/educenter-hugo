@@ -36,10 +36,10 @@ banner_feature:
     icon: ti-stats-up
     content: Esta página se encuentra dedicada a subir documentación de utilidad para
       ciencia de datos, estadística aplicada, econometría
-  - name: Our Notice Board
-    icon: ti-blackboard
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore  dolore magna aliqua. Ut enim ad
+  - name: Programación
+    icon: ti-stack-overflow
+    content: Éste sitio te será de utilidad en cuanto el uso de scrips para programar
+      los tópicos ya mencionados.
   - name: Our Achievements
     icon: ti-agenda
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
