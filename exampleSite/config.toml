@@ -9,27 +9,21 @@ title = "R-conomics"
 [Languages.en]
 contentDir = "content/english"
 copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
-home = "Home"
+home = "Inicio"
 languageCode = "en-us"
 languageName = "En"
 weight = 1
 [[Languages.en.menu.footer]]
-name = "teacher"
+name = "Colaboradores"
 url = "teacher"
 [[Languages.en.menu.footer]]
-name = "notice"
+name = "Macroeconomía"
 url = "notice"
 [[Languages.en.menu.footer]]
-name = "event"
+name = "Eventos económicos"
 url = "event"
-[[Languages.en.menu.footer]]
-name = "scholarship"
-url = "scholarship"
-[[Languages.en.menu.footer]]
-name = "research"
-url = "research"
 [[Languages.en.menu.main]]
-name = "About"
+name = "Sobre aquí"
 url = "about"
 weight = 1
 [[Languages.en.menu.main]]
@@ -38,34 +32,26 @@ url = "course"
 weight = 2
 [[Languages.en.menu.main]]
 hasChildren = true
-name = "Pages"
+name = "Otros"
 weight = 3
 [[Languages.en.menu.main]]
-name = "teacher"
-parent = "Pages"
+name = "Colaboradores"
+parent = "Otros"
 url = "teacher"
 [[Languages.en.menu.main]]
-name = "notice"
-parent = "Pages"
+name = "Macroeconomía"
+parent = "Otros"
 url = "notice"
 [[Languages.en.menu.main]]
-name = "event"
-parent = "Pages"
+name = "Eventos económicos"
+parent = "Otros"
 url = "event"
 [[Languages.en.menu.main]]
-name = "scholarship"
-parent = "Pages"
-url = "scholarship"
-[[Languages.en.menu.main]]
-name = "research"
-parent = "Pages"
-url = "research"
-[[Languages.en.menu.main]]
-name = "blog"
+name = "Entradas"
 url = "blog"
 weight = 4
 [[Languages.en.menu.main]]
-name = "Contact"
+name = "Contacto"
 url = "contact"
 weight = 5
 [Languages.fr]
