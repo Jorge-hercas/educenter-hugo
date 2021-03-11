@@ -29,8 +29,8 @@ contact:
   icon: ti-twitter-alt
   link: https://twitter.com/ElJorgeHdz
 - name: Clark Malik
-  icon: ti-skype
-  link: "#"
+  icon: ti-github
+  link: https://github.com/Jorge-hercas
 - name: clarkmalik.com
   icon: ti-world
   link: "#"
