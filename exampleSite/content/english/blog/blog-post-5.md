@@ -6,7 +6,7 @@ description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
   tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis
   nostrud.
 image: "/images/rlogo.png"
-author: Jorge Hernández
+author: Jorge Hernández Castelán
 categories:
 - English Learning
 tags:
