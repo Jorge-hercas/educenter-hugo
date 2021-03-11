@@ -19,9 +19,9 @@ contact:
 - name: valentehcastelan@hotmail.com
   icon: ti-email
   link: mailto:valentehcastelan@hotmail.com
-- name: "+12 034 5876"
+- name: "+52 5539274685"
   icon: ti-mobile
-  link: tel:+120345876
+  link: tel:+52 5539274685
 - name: Clark Malik
   icon: ti-facebook
   link: "#"
