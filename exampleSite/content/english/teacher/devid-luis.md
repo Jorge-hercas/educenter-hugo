@@ -25,7 +25,7 @@ contact:
 - name: Facebook
   icon: ti-facebook
   link: https://www.facebook.com/eljorgehc
-- name: Clark Malik
+- name: Twitter
   icon: ti-twitter-alt
   link: https://twitter.com/ElJorgeHdz
 - name: Clark Malik
