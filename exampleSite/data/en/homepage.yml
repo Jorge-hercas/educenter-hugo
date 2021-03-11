@@ -20,16 +20,14 @@ slider:
       enable: true
       label: Mira los últimos posts
       link: blog
-  - title: Your bright future is our mission
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud
-      exer
+  - title: Encuentra lo último
+    content: En publicaciones de R, ejercicios, estadística, etc
     animation_in: left
     animation_out: right
     button:
       enable: true
-      label: Apply now
-      link: contact
+      label: Rpubs
+      link: https://rpubs.com
 banner_feature:
   enable: true
   image: "/images/graficos2.png"
