@@ -26,7 +26,7 @@
 - id: posted_by
   translation: Escrito por
 - id: date
-  translation: Date
+  translation: Fecha
 - id: time
   translation: time
 - id: category
