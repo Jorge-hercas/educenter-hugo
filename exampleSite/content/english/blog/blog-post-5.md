@@ -20,4 +20,4 @@ type: post
 
 Uno de los tópicos probablemente más importantes cuando se trabaja con estadística, econometría y programación en R es trabajar con bases de datos, pero ciertamente no siempre van a estar ordenados cómo uno lo necesita, con los cálculos necesarios para nuestro objetivo ni con los parámetros necesarios para nuestro análisis, es por ello que ésta entrada tendrá como objetivo ver las diferentes formas y opciones que tenemos dentro de R/RStudio para manejar bases de datos, así como crearlas desde el programa, importarlas, hacer cálculos con ellas, entre otros tópicos.
 
-# [Mira el ejercicio completo aquí](https://rpubs.com/Jorge_981222/matrix "Ejercicio")
+### [Mira el ejercicio completo aquí](https://rpubs.com/Jorge_981222/matrix "Ejercicio")
