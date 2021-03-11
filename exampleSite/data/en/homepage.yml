@@ -50,18 +50,15 @@ banner_feature:
       por lo que siempre encontrarás explicaciones teóricas al tema que se suba.
 about:
   enable: true
-  title: About Educenter
-  image: images/about/about-us.jpg
-  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-    fugiat  pariatur. Excepteur sint occaecat\n\ncupidatat non proident, sunt in culpa
-    qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
-    iste natus error sit voluptatem "
+  title: Sobre R-conomics
+  image: "/images/python.png"
+  content: |-
+    ¿Qué importancia existe en conocer métodos estadísticos para tu carrera laboral? ¿Por qué deberías aprender lenguajes de programación? ¿Realmente aplicarás ésto en tu vida laboral algún día?
+
+    Los lenguajes de programación, y sobre todo aquellos orientados a la estadística como R, son cada vez más utilizados en las empresas para analizar datos financieros, crear proyeccciones,  modelos que ayuden a predecir oportunidades de negocios, entre otros usos, por lo que aprender a programar en R es de las mejores cosas que puedes hacerte a ti mismo para crecer profesionalmente.
   button:
     enable: true
-    label: Learn more
+    label: Mira más
     link: about
 course:
   enable: true
