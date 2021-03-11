@@ -5,7 +5,7 @@ bg_image: "/images/net.jpg"
 description: Este ejercicio tiene como objetivo aplicar de manera correcta el método
   SIMPLEX en R.
 image: "/images/rlogo.png"
-author: John Doe
+author: Jorge Hernández Castelán
 categories: []
 tags:
 - Programación lineal
