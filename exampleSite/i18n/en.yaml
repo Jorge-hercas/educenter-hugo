@@ -6,7 +6,7 @@
 - id: send
   translation: send message
 - id: contact_info
-  translation: Contact Info
+  translation: Información de contacto
 - id: subscribe_newsletter
   translation: Déjanos tu correo
 - id: subscribe
