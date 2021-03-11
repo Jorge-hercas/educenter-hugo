@@ -65,11 +65,11 @@ course:
   title: Algunos proyectos
 cta:
   enable: true
-  subtitle: Click to Join the Advance Workshop
-  title: Training In Advannce Networking
+  subtitle: "¿Quieres invitarme un café?"
+  title: "¿Tienes alguna duda en algún tema relacionado?"
   button:
     enable: true
-    label: join now
+    label: Contáctame
     link: contact
 success_story:
   enable: true
