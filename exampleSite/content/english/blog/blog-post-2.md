@@ -1,32 +1,23 @@
 ---
-title: "Elegant Light Box Paper Cut Dioramas"
-date: 2019-07-06T15:27:17+06:00
-draft: false
-# page title background image
-bg_image: "images/backgrounds/page-title.jpg"
-# meta description
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
-# post thumbnail
-image: "images/blog/post-2.jpg"
-# post author
-author: "John Doe"
-# taxonomy
-categories: ["Education System"]
-tags: ["Education", "Automation"]
-# type
-type: "post"
+title: Índices de precios en R
+date: 2021-01-21T10:27:17+00:00
+bg_image: "/images/net.jpg"
+description: Este ejercicio tiene como objetivo calcular de manera rápida índices
+  de precios.
+image: "/images/rlogo.png"
+author: Jorge Hernández Castelán
+categories:
+- Economía
+- R
+tags:
+- Índice de cantidades
+- índice de precios
+- Cuentas nacionales
+type: post
+
 ---
+## ¿Qué es un índice de precios?
 
-### The standard Lorem Ipsum passage, used since the 1500s
+Formalmente hablando, un indice de precios es conocido como _una media ponderada de las variaciones entre dos periodos de tiempo de las cantidades producidas de un grupo de bienes y servicios_, mientras que un índice de precios se refiere a lo mismo, _una media ponderada de la variación en dos periodos, pero ahora de los precios_. Los índices usualmente suelen adoptar un valor de 100, para representarlos en porcentaje, o de 1, para representarlos en _tantos por uno_, por lo que la nomenclatura puede causar confusión al lector, sin embargo, ambas ponderaciones representan la misma cantidad, pudiendo ser usadas de manera libre por el/la economista sin que ello represente ningún cambio.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-
-
-#### 1914 translation by H. Rackham
-But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, **the master-builder** of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
-
-> On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue
-
-#### Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
-
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+### [Mira el ejercicio completo aquí](https://rpubs.com/Jorge_981222/indices "ejercicio")
