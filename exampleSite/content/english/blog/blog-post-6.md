@@ -6,7 +6,8 @@ description: Este ejercicio tiene como objetivo aplicar de manera correcta el m�
   SIMPLEX en R.
 image: "/images/rlogo.png"
 author: Jorge Hernández Castelán
-categories: []
+categories:
+- R
 tags:
 - Programación lineal
 - 'Economía '
