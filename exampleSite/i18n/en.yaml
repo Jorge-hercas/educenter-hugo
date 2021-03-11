@@ -62,7 +62,7 @@
 - id: new_notice
   translation: Lo más nuevo
 - id: call
-  translation: call
+  translation: Llámame
 - id: email
   translation: email
 - id: all
