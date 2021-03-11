@@ -188,7 +188,7 @@ link = "http://twitter.com/ElJorgeHdz"
 title = "twitter"
 [[params.social]]
 icon = "ti-instagram"
-link = "#"
+link = "https://www.instagram.com/jorge_hca/"
 title = "instagram"
 [[params.social]]
 icon = "ti-github"
