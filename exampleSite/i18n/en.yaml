@@ -42,7 +42,7 @@
 - id: teacher
   translation: Colaborador
 - id: location
-  translation: location
+  translation: Lugar
 - id: entry_fee
   translation: entry fee
 - id: event_speaker
