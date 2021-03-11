@@ -46,7 +46,7 @@
 - id: entry_fee
   translation: Costo
 - id: event_speaker
-  translation: Event Speakers
+  translation: 'Oradores '
 - id: more_event
   translation: More Events
 - id: join
