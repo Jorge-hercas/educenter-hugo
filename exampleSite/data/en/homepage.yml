@@ -74,7 +74,7 @@ cta:
 success_story:
   enable: true
   bg_image: images/backgrounds/success-story.jpg
-  title: "¿Prefieres aprender con videos?"
+  title: "¿Prefieres aprender con videos? "
   content: |-
     En R-conomics apoyamos también a otros creadores de contenido relacionado con la estadística, por lo que te dejamos aquí el canal de **Economía con manzanitas**, quien te explica temas de forma sencilla y práctica.
 
