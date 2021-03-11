@@ -92,8 +92,8 @@ funfacts:
     count: "5"
   - name: Entradas
     count: "8"
-  - name: SATISFIED CLIENT
-    count: "1400"
+  - name: Lenguajes de programación
+    count: "3"
 blog:
   enable: true
   title: Latest News
