@@ -1,50 +1,25 @@
 ---
-title: "Teaching Materials and Testing Methods"
-date: 2019-07-06T15:27:17+06:00
-draft: false
-# page title background image
-bg_image: "images/backgrounds/page-title.jpg"
-# meta description
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
-# notice download link
-download_link : "#"
-# type
-type: "notice"
+title: Un manual de macroeconomía
+date: 2021-02-25T10:27:17+00:00
+bg_image: "/images/net.jpg"
+description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis
+  nostrud.
+download_link: "#"
+
 ---
+### Sobre éste manual.
 
+¿Qué importancia radica en el estudio de la macroeconomía? En el mundo actual existe una evidente importancia en saber cómo funcionan las economías desde una perspectiva global, así como las interacciones que hay entre las diferentes naciones, pero ¿cómo podemos comenzar este análisis? Para ello primero debemos hacernos la siguiente pregunta: ¿Cómo podemos comenzar a entender el funcionamiento de las economìas globales? Para ello, primero debemos averigüar cómo es que se componen dichas economías, es decir, qué interacciones tienen entre ellas para poder ser consideradas *economías*.
 
-### About Notice
+### Conocimientos previos.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
-ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
-labore et dolore magnam aliquam quaerat voluptatem.
+Para poder comprender completamente éste manual, sería ideal que el lector tenga conocimientos previos de:
 
-### Requirements
+* Teoría económica.
+* Algebra básica.
+* Cálculo diferencial e integral.
 
+Aunque de no ser el caso de igual manera el lector puede darle una revisión a éste manual, ya que tratamos de explicar de la mejor y más sencilla manera los temas, con aplicaciones al mundo real.
 
-
-* Lorem ipsum dolor sit amet consectetur adipisicing elit.
-* Lorem ipsum dolor sit amet consectetur adipisicing elit.
-* Lorem ipsum dolor sit amet consectetur adipisicing elit.
-* Lorem ipsum dolor sit amet consectetur adipisicing elit.
-
-
-### Fees and Funding
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
-ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
-labore et dolore magnam aliquam quaerat voluptatem.
+\**Importante: El manual sigue en desarrollo, así que por favor mantente al pendiente de cualquier actualización a éste. Te informaremos cuando lo actualicemos.**
