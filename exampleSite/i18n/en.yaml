@@ -60,7 +60,7 @@
 - id: courses
   translation: 'Otros '
 - id: new_notice
-  translation: new notice
+  translation: Lo más nuevo
 - id: call
   translation: call
 - id: email
