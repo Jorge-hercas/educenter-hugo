@@ -10,7 +10,7 @@ teacher: Jorge Hernández
 duration: ''
 weekly: ''
 fee: ''
-apply_url: "#"
+apply_url: https://rpubs.com/Jorge_981222/dashboardecon
 
 ---
 ### Sobre éste proyecto
