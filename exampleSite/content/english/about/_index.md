@@ -1,6 +1,6 @@
 ---
 title: Sobre R-conomics
-bg_image: images/backgrounds/page-title.jpg
+bg_image: "/images/net.jpg"
 image: images/about/about-page.jpg
 description: "¿Cuál ha sido la trayectoría y objetivos de éste proyecto? Aquí te lo
   contamos."
