@@ -3,10 +3,9 @@ slider:
   enable: true
   bg_image: "/images/grafica.jpg"
   slider_item:
-  - title: Your bright future is our mission
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud
-      exer
+  - title: R-conomics
+    content: Un sitio creado para que los aprendices de R o Python puedan encontrar
+      tutoriales y documentación de su interés
     animation_in: left
     animation_out: right
     button:
