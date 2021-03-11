@@ -120,7 +120,7 @@ description = "Ésta página se dedica principalmente al análisis estadístico"
 email = "valentehcastelan@hotmail.com"
 google_analitycs_id = ""
 logo = "/images/perro1.png"
-mobile = "+211234565523"
+mobile = "+5255712123"
 top_header = true
 [params.cookies]
 enable = true
