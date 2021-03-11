@@ -1,5 +1,5 @@
 ---
-title: Vlogging
+title: Ejemplo 1
 date: 2019-07-06T15:27:17.000+06:00
 bg_image: images/backgrounds/page-title.jpg
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
