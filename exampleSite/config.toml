@@ -1,5 +1,5 @@
 baseURL = "http://r-conomics.netlify.app"
-disableLanguages = []
+disableLanguages = ["Fr"]
 disqusShortname = "educenter"
 paginate = "6"
 summaryLength = "10"
