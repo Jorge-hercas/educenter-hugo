@@ -22,7 +22,7 @@ contact:
 - name: "+52 5539274685"
   icon: ti-mobile
   link: tel:+52 5539274685
-- name: Clark Malik
+- name: Facebook
   icon: ti-facebook
   link: https://www.facebook.com/eljorgehc
 - name: Clark Malik
