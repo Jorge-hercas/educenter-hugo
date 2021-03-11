@@ -40,10 +40,10 @@ banner_feature:
     icon: ti-stack-overflow
     content: Éste sitio te será de utilidad en cuanto el uso de scrips para programar
       los tópicos ya mencionados.
-  - name: Our Achievements
-    icon: ti-agenda
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore  dolore magna aliqua. Ut enim ad
+  - name: Economía
+    icon: ti-world
+    content: También encontrarás artículos de opinión sobre la macroeconomía contemporánea,
+      sobre todo en temas de cuentas nacionales y finanzas públicas.
   - name: Admission Now
     icon: ti-write
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
