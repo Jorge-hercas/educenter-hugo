@@ -64,7 +64,7 @@
 - id: call
   translation: Llámame
 - id: email
-  translation: email
+  translation: Correo electrónico
 - id: all
   translation: All
 - id: interest
