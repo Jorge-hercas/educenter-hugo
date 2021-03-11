@@ -131,13 +131,13 @@ name = "Contact"
 url = "contact"
 weight = 5
 [params]
-address = "9567 Turner Trace Apt. BC C3G8A4"
+address = "Ciudad de México, Venustiano carranza"
 author = "Themefisher"
-contact_form_action = "#"
-description = "This is meta description"
-email = "info@educenter.com"
+contact_form_action = "valentehcastelan@hotmail.com"
+description = "Ésta página se dedica principalmente al análisis estadístico"
+email = "valentehcastelan@hotmail.com"
 google_analitycs_id = ""
-logo = "images/logo.png"
+logo = "/images/perro1.png"
 mobile = "+211234565523"
 top_header = true
 [params.cookies]
