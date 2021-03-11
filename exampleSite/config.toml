@@ -11,7 +11,7 @@ contentDir = "content/english"
 copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
 home = "Inicio"
 languageCode = "en-us"
-languageName = "En"
+languageName = "Es"
 weight = 1
 [[Languages.en.menu.footer]]
 name = "Colaboradores"
