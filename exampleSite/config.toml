@@ -27,10 +27,6 @@ name = "Sobre aquí"
 url = "about"
 weight = 1
 [[Languages.en.menu.main]]
-name = "course"
-url = "course"
-weight = 2
-[[Languages.en.menu.main]]
 hasChildren = true
 name = "Otros"
 weight = 3
