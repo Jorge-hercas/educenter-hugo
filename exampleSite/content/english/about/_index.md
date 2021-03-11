@@ -1,23 +1,13 @@
 ---
-title: "About Us"
-draft: false
-# page title background image
-bg_image: "images/backgrounds/page-title.jpg"
-# about image
-image: "images/about/about-page.jpg"
-# meta description
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+title: Sobre R-conomics
+bg_image: images/backgrounds/page-title.jpg
+image: images/about/about-page.jpg
+description: "¿Cuál ha sido la trayectoría y objetivos de éste proyecto? Aquí te lo
+  contamos."
+
 ---
+## Acerca de éste sitio
 
-## ABOUT OUR JOURNY
+Estudiar estadística siempre ha sido un tema de gran importancia para el mundo tanto académico como laboral. Desgraciadamente no todas las universidades enseñan éstos métodos aplicados a software´s o lenguajes de programación que se soliciten en el mercado laboral actualmente, por lo que éste sitio se creó para ayudar a todos los estudiantes de temas relacionados a aprender a programar en Python, pero principalmente en R, mediante ejemplos prácticos y aplicaciones al mundo real que puedan ser de utilidad para su carrera laboral a futuro.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-et.dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet consectetur,
-adipisicing elit. Saepe ipsa illo quod veritatis, magni debitis fugiat dolore voluptates! Consequatur,
-aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat perferendis sint optio similique.
-Et amet magni facilis vero corporis quos.
-
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum, dolor sit amet consectetur
-adipisicing elit. Ipsum a, facere fugit error accusamus est officiis vero in, nostrum laboriosam corrupti
-explicabo, cumque repudiandae deleniti perspiciatis quae consectetur enim. Laboriosam!
+\*Así como uno nunca deja de aprender, aquí nunca dejaremos de actualizar la página, para que siempre encuentres algo nuevo que pueda serte de utilidad a futuro.*
