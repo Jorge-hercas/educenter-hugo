@@ -1,22 +1,24 @@
 ---
 title: Jorge Hernández
-bg_image: images/backgrounds/page-title.jpg
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis
-  nostrud.
-image: images/teachers/teacher-3.jpg
-course: Humanities
-bio: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque accusamus tenetur
-  ea harum delectus ab consequatur excepturi, odit qui in quo quia voluptate nam optio,
-  culpa aspernatur. Error placeat iusto officia voluptas quae.
+bg_image: "/images/net.jpg"
+description: Soy una persona comprometida con el trabajo duro, la dedicación y el
+  desarrollo personal, quien además se encuentra en un constante ciclo de aprendizaje
+image: "/images/avatar.jpg"
+course: Econometría y ciencia de datos
+bio: Mis lineas de trabajo se basan principalmente en el análisis estadístico aplicado
+  a la economía contemporanea, el uso de herramientas de programación para busisness
+  inteligence, big data, machine learning, neural networks, econometría, series de
+  tiempo y usando las técnicas de modelación mencionadas anteriormente.
 interest:
-- Computer Networking
-- Computer Security
-- Human Computer Interfacing
+- Análisis financiero
+- Macroeconomía
+- Econometría
+- Estadística bayesiana
+- Machine learning
 contact:
-- name: clarkmalik@email.com
+- name: valentehcastelan@hotmail.com
   icon: ti-email
-  link: mailto:clarkmalik@email.com
+  link: mailto:valentehcastelan@hotmail.com
 - name: "+12 034 5876"
   icon: ti-mobile
   link: tel:+120345876
@@ -39,9 +41,4 @@ contact:
 ---
 ### About Me
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.
-
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+Soy una persona comprometida con el trabajo duro, la dedicación y el desarrollo personal, quien además se encuentra en un constante ciclo de aprendizaje, para de esta manera tener siempre un mejor desempeño laboral y académico que me permita no solo alcanzar mis objetivos, si no también llegar mucho más lejos. Como un actual universitario, me considero alguien capaz de resolver tanto problemas económicos, como problemas econonométricos, empresariales, de optimización de recursos, de análisis financiero (tanto para empresas como para personas físicas), entre otros tópicos de la economía actual.
