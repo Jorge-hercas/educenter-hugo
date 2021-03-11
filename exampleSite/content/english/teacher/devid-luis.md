@@ -36,6 +36,6 @@ contact:
   link: "#"
 
 ---
-### About Me
+### Sobre mi
 
 Soy una persona comprometida con el trabajo duro, la dedicación y el desarrollo personal, quien además se encuentra en un constante ciclo de aprendizaje, para de esta manera tener siempre un mejor desempeño laboral y académico que me permita no solo alcanzar mis objetivos, si no también llegar mucho más lejos. Como un actual universitario, me considero alguien capaz de resolver tanto problemas económicos, como problemas econonométricos, empresariales, de optimización de recursos, de análisis financiero (tanto para empresas como para personas físicas), entre otros tópicos de la economía actual.
