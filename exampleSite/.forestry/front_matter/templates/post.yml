@@ -32,5 +32,3 @@ fields:
   name: type
   label: type
   default: post
-pages:
-- exampleSite/content/english/blog/markdown.md
