@@ -24,7 +24,7 @@ contact:
   link: tel:+52 5539274685
 - name: Clark Malik
   icon: ti-facebook
-  link: "#"
+  link: https://www.facebook.com/eljorgehc
 - name: Clark Malik
   icon: ti-twitter-alt
   link: "#"
