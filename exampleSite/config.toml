@@ -184,7 +184,7 @@ link = "https://www.facebook.com/eljorgehc"
 title = "facebook"
 [[params.social]]
 icon = "ti-twitter-alt"
-link = "#"
+link = "http://twitter.com/ElJorgeHdz"
 title = "twitter"
 [[params.social]]
 icon = "ti-instagram"
