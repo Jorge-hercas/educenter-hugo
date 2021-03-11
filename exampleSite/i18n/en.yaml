@@ -58,7 +58,7 @@
 - id: links
   translation: links
 - id: courses
-  translation: Courses
+  translation: 'Otros '
 - id: new_notice
   translation: new notice
 - id: call
