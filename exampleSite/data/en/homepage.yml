@@ -12,16 +12,14 @@ slider:
       enable: true
       label: Te dejo mi CV
       link: "/images/resume.pdf"
-  - title: Your bright future is our mission
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud
-      exer
+  - title: Y también encontrar notas
+    content: sobre tópicos macroeconómicos actuales
     animation_in: left
     animation_out: right
     button:
       enable: true
-      label: Apply now
-      link: contact
+      label: Mira los últimos posts
+      link: blog
   - title: Your bright future is our mission
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud
