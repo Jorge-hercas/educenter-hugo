@@ -44,10 +44,10 @@ banner_feature:
     icon: ti-world
     content: También encontrarás artículos de opinión sobre la macroeconomía contemporánea,
       sobre todo en temas de cuentas nacionales y finanzas públicas.
-  - name: Admission Now
+  - name: Un poco de teoría
     icon: ti-write
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore  dolore magna aliqua. Ut enim ad
+    content: Porque no podemos dejar de lado la teoría cuando hacemos estadística,
+      por lo que siempre encontrarás explicaciones teóricas al tema que se suba.
 about:
   enable: true
   title: About Educenter
