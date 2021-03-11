@@ -384,7 +384,7 @@ textarea.form-control {
     .pagination .page-item.active .page-link {
       background: #ffbc3b;
       color: #fff;
-      border-color: #ffbc3b; }
+      border-color: #2274e0; }
     .pagination .page-item:first-child .page-link, .pagination .page-item:last-child .page-link {
       border-radius: 0; }
     .pagination .page-item .page-link {
@@ -483,7 +483,7 @@ textarea.form-control {
       padding-left: 0;
       background: #1a1a37; } }
 .nav-bg {
-  background-color: #1a1a37; }
+  background-color: #2274e0; }
 
 .nav-item {
   margin: 0 15px;
