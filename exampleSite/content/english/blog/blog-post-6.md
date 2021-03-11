@@ -1,25 +1,21 @@
 ---
-title: Cualquier cosa
+title: Programación lineal. Método SIMPLEX en R.
 date: 2019-07-06T15:27:17.000+06:00
-bg_image: images/backgrounds/page-title.jpg
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis
-  nostrud.
-image: images/blog/post-1.jpg
+bg_image: "/images/net.jpg"
+description: Este ejercicio tiene como objetivo aplicar de manera correcta el método
+  SIMPLEX en R.
+image: "/images/rlogo.png"
 author: John Doe
-categories:
-- Deep Learning
+categories: []
 tags:
-- AI
-- Automation
+- Economía
+- Maximización
+- Programación lineal
 type: post
 
 ---
-### The standard Lorem Ipsum passage, used since the 1500s
+### Programación lineal. Método SIMPLEX en R.
 
-    # Ejemplo
-    vector <- c(1,2,4,5)
-    vector2 <- c(,3,4,5,6)
-    base <- data.frame(vector, vector2)
-    modelo <- lm(vector~vector2)
-    summary(modelo)
+Dentro de la microeconomía, uno de los tópicos más usados en las empresas suele ser el de la *programación lineal*, ya que éstos métodos tienen como objetivo el analizar la forma de utilizar los recursos disponibles de la manera más **eficiente** posible, por ejemplo: Utilizar la menor cantidad de aluminio para crear una lata, obtener la mayor cantidad de beneficios posibles de una venta de productos, etc. Un método usado comunmente es el llamado **metodo SIMPLEX**, el cual se basa en iteraciones para poder obtener la combinación de recursos que *maximice* el beneficio, o bien, que *minimice* el costo, según sea el caso.
+
+A partir de aquí vamos a partir de la idea de que el lector ya está familiarizado con los métodos de programación lineal, por lo que vamos a pasar directamente a dos ejercicios aplicados en R, para conocer la forma de hacerlo en este programa de manera práctica mediante el uso del paquete \`lpsolve\`.
