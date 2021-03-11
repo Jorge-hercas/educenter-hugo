@@ -86,8 +86,8 @@ event:
 funfacts:
   enable: true
   funfact_item:
-  - name: TEACHERS
-    count: "60"
+  - name: Colaboradores
+    count: "2"
   - name: COURSES
     count: "50"
   - name: STUDENTS
