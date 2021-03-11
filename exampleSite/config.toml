@@ -69,11 +69,11 @@ name = "Contact"
 url = "contact"
 weight = 5
 [Languages.fr]
-contentDir = "content/french"
+contentDir = ""
 copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
 home = "Accueil"
-languageCode = "fr-fr"
-languageName = "Fr"
+languageCode = ""
+languageName = ""
 weight = 2
 [[Languages.fr.menu.footer]]
 name = "teacher"
