@@ -31,10 +31,7 @@ contact:
 - name: Github
   icon: ti-github
   link: https://github.com/Jorge-hercas
-- name: clarkmalik.com
-  icon: ti-world
-  link: "#"
-- name: 1313 Boulevard Cremazie,Quebec
+- name: Ciudad de México, Venustiano Carranza
   icon: ti-location-pin
   link: "#"
 
