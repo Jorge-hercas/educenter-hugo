@@ -19,7 +19,7 @@ type: post
 
     # Ejemplo
     vector <- c(1,2,4,5)
-    
-    
-    
-    
+    vector2 <- c(,3,4,5,6)
+    base <- data.frame(vector, vector2)
+    modelo <- lm(vector~vector2)
+    summary(modelo)
