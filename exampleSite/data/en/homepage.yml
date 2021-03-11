@@ -74,12 +74,12 @@ cta:
 success_story:
   enable: true
   bg_image: images/backgrounds/success-story.jpg
-  title: Success Stories
+  title: "¿Prefieres aprender con videos?"
   content: |-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.
+    En R-conomics apoyamos también a otros creadores de contenido relacionado con la estadística, por lo que te dejamos aquí el canal de **Economía con manzanitas**, quien te explica temas de forma sencilla y práctica.
 
-    ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-  video_link: https://www.youtube.com/watch?v=ResipmZmpDU
+     Si te gusta aprender con ejemplos prácticos de una forma más personalizada, mira su canal.
+  video_link: https://youtu.be/AYr5yTX_Jtc
 event:
   enable: true
   title: Upcoming Events
