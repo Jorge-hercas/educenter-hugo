@@ -10,7 +10,7 @@ slider:
     animation_out: right
     button:
       enable: true
-      label: Apply now
+      label: Te dejo mi CV
       link: contact
   - title: Your bright future is our mission
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
