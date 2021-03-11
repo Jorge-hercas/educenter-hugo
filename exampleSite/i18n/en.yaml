@@ -28,7 +28,7 @@
 - id: date
   translation: Fecha
 - id: time
-  translation: time
+  translation: Tiempo
 - id: category
   translation: Category
 - id: related_course
