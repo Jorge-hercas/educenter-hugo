@@ -32,10 +32,10 @@ banner_feature:
   enable: true
   image: "/images/graficos2.png"
   feature_item:
-  - name: Scholorship News
-    icon: ti-book
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore  dolore magna aliqua. Ut enim ad
+  - name: Estadística
+    icon: ti-stats-up
+    content: Esta página se encuentra dedicada a subir documentación de utilidad para
+      ciencia de datos, estadística aplicada, econometría
   - name: Our Notice Board
     icon: ti-blackboard
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
