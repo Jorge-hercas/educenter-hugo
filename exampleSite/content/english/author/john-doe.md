@@ -15,5 +15,4 @@ social:
   link: https://github.com/Jorge-hercas
 
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida. Nam suscipit vitae purus et laoreet.
-Donec nisi dolor, consequat vel pretium id, auctor in dui. Nam iaculis, neque ac ullamcorper.
+Soy una persona comprometida con el trabajo duro, la dedicación y el desarrollo personal, quien además se encuentra en un constante ciclo de aprendizaje
