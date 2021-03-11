@@ -30,7 +30,7 @@
 - id: time
   translation: Tiempo
 - id: category
-  translation: Category
+  translation: Categoría
 - id: related_course
   translation: Related Course
 - id: duration
