@@ -24,6 +24,6 @@ Dentro de la microeconomía, uno de los tópicos más usados en las empresas sue
 
 A partir de aquí vamos a partir de la idea de que el lector ya está familiarizado con los métodos de programación lineal, por lo que vamos a pasar directamente a dos ejercicios aplicados en R, para conocer la forma de hacerlo en este programa de manera práctica mediante el uso del paquete ´lpsolve´.
 
-## [Mira aquí el procedimiento completo](https://rpubs.com/Jorge_981222/simplex "Procedimiento")
+## [Mira aquí el procedimiento completo](https://bookdown.org/eljorgehdz/simplex/ "Procedimiento")
 
 ### [También disponible el ejercicio en PDF](/images/ejercicios.pdf)
