@@ -19,7 +19,7 @@ type: post
 
 Dentro del ámbito de la estadística, uno de los tópicos más importantes son las regresiones lineales (simples o múltiples), las cuales tienen como objetivo predecir valores futuros en base a aquellos valores ya existentes con anterioridad, por lo que el método más comunmente utilizado para esto es el conocido como **mínimos cuadrados ordinarios**.
 
-### [Mira el ejercicio completo aquí](https://rpubs.com/Jorge_981222/regresion "regresion")
+### [Mira el ejercicio completo aquí](https://bookdown.org/eljorgehdz/regresion/ "regresion")
 
 También
 
