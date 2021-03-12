@@ -18,4 +18,4 @@ Las series de tiempo son una clase de datos que están estructuradon en el tiemp
 2. Componente estacional: Las series de tiempo en el corto plazo suelen tener un componente denominado estacional, el cual hará que incrementen o disminuyan según el periodo de tiempo sin cambiar su tendencia de largo plazo. Por ejemplo, supongamos las ventas de una empresa de juguetes. Estas tenderan a un cierto nivel durante la mayoría del año, pero en diciembre y épocas navideñas tenderán a incrementar.
 3. Componente aleatorio: Este componente (conocido también como “Random Walk” o caminata aleatoria, aunque este nombre suele ser usado para series de tiempo sin tendencia o componente estacional, como el precio de las acciones de una compañía) es algo que no puede ser predecido por medio de modelos de series de tiempo, ya que son eventos fortuitos que ocurren de manera sorpresiva, como un desastre natural, una pandemia, etc.
 
-### [Mira el ejercicio completo aquí](https://rpubs.com/Jorge_981222/grafinter "graficos")
+### [Mira el ejercicio completo aquí](https://bookdown.org/eljorgehdz/desestascionalizado/ "graficos")
