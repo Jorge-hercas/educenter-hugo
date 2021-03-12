@@ -19,4 +19,4 @@ type: post
 
 Una de las cosas más interesantes que podemos hacer en cuanto a visualización de información es la creación de sistemas de información geográfica, es decir, mapas que nos muestren datos sobre algún tópico en específico. Este tipo de información suele ser bastante útil cuando se quiere hacer una comparación entre una gran cantidad de países, ya que podemos ver diferencias claras entre ellos sin tener información demasiado revuelta, algo que sería complicado de ver en una gráfica convencional si utilizamos demasiadas variables (países, en este caso).
 
-### [Mira aquí el ejercicio completo.](https://rpubs.com/Jorge_981222/maps "Ejercicio")
+### [Mira aquí el ejercicio completo.](https://bookdown.org/eljorgehdz/mapas/ "Ejercicio")
