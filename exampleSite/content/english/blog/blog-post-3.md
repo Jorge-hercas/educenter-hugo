@@ -19,4 +19,4 @@ type: post
 
 El teorema de Bayes se basa principalmente en la probabilidad condicional, es decir, dado que ocurre un evento, ¿qué probabilidad existe de que ocurra otro? Este teorema suele ser sumamente útil y bastante aplicado a algoritmos de Machine Learning como los árboles de decisión, pero ¿cómo se aplica en un ejercicio práctico?
 
-### [Míralo completo aquí](https://rpubs.com/Jorge_981222/proba "proba")
+### [Míralo completo aquí](https://bookdown.org/eljorgehdz/proba/ "proba")
