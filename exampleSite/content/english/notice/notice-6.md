@@ -2,9 +2,8 @@
 title: Un manual de macroeconomía
 date: 2021-02-25T10:27:17+00:00
 bg_image: "/images/net.jpg"
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis
-  nostrud.
+description: "¿Cómo podemos comenzar a entender el funcionamiento de las economìas
+  globales?"
 download_link: "/images/macro.pdf"
 
 ---
