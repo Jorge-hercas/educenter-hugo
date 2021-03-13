@@ -4,7 +4,6 @@ bg_image = "/images/net.jpg"
 categories = ["R"]
 date = 2021-03-13T06:00:00Z
 description = "En esta entrada vamos a continuar con la creación de diferentes tipos de gráficos para analizar datos"
-draft = true
 image = "/images/rlogo.png"
 tags = ["Business Inteligence", "Economía", "Gráficos"]
 title = "¿Cuál es el mejor gráfico para cada caso? Parte 2."
