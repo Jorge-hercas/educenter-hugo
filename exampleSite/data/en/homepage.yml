@@ -11,7 +11,7 @@ slider:
     button:
       enable: true
       label: Te dejo mi CV
-      link: "/images/resume.pdf"
+      link: "/images/curriculum.pdf"
   - title: Y también encontrar notas
     content: sobre tópicos macroeconómicos actuales
     animation_in: left
