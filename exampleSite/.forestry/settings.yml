@@ -23,7 +23,7 @@ sections:
   templates:
   - author
 - type: heading
-  label: Course
+  label: Proyectos
 - type: directory
   path: exampleSite/content/english/course
   label: Course (en)
