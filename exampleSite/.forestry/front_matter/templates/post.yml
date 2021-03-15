@@ -34,6 +34,10 @@ fields:
   default: post
 pages:
 - exampleSite/content/english/blog/cual-es-el-mejor-grafico-para-cada-caso-parte-1.md
+- exampleSite/content/english/blog/cual-es-el-mejor-grafico-para-cada-caso-parte-1.md
+- exampleSite/content/english/blog/cual-es-el-mejor-grafico-para-cada-caso-parte-2.md
 - exampleSite/content/english/blog/cual-es-el-mejor-grafico-para-cada-caso-parte-2.md
 - exampleSite/content/english/blog/graficos-desestacionalizados-interactivos-en-r.md
+- exampleSite/content/english/blog/graficos-desestacionalizados-interactivos-en-r.md
+- exampleSite/content/english/blog/que-encontraras-en-las-proximas-entradas.md
 - exampleSite/content/english/blog/que-encontraras-en-las-proximas-entradas.md
