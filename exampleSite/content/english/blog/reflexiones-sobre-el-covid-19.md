@@ -14,3 +14,5 @@ type = "post"
 ## Reflexiones sobre el Covid-19
 
 El virus SARS-CoV-2 (del inglés _Severe Acute Respiratory Sindrome coronavirus 2_) es conocido por aparecer por primera vez en la ciudad de Wuhan, China, en un mercado de alimentos en el mes de diciembre del año 2019 y por ser el causante de la enfermedad covid-19 _coronavirus desease 2019_.
+
+### [Mira el artículo completo en PDF aquí](/images/reflexiones-sobre-covid.pdf "covid")
