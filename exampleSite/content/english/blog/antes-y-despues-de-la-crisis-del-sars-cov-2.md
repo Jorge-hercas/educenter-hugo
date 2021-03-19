@@ -15,4 +15,4 @@ type = "post"
 
 Actualmente, el panorama internacional es cuando menos, curioso. La coyuntura en todo ámbito por el que se vea para cualquier país del mundo, resulta sumamente desfavorable. Ninguna de las naciones tiene los insumos necesarios para hacer frente de manera satisfactoria a la crisis sanitaria, social y por su puesto, económica que se avecina para los siguientes años.
 
-### Mira el documento completo aquí
+### [Mira el documento completo aquí](/images/economiamexicana.pdf "covid")
