@@ -4,7 +4,6 @@ bg_image = "/images/net.jpg"
 categories = ["Macroeconomía"]
 date = 2021-03-19T06:00:00Z
 description = "¿Qué ha ocurrido tras la crisis sanitaria actual? ¿Cómo ha respondido México ante esto?"
-draft = true
 image = "/images/earth-1149733_1920.jpg"
 tags = ["Crisis sanitaria", "Economía"]
 title = " Antes y después de la crisis del SARS-CoV-2"
