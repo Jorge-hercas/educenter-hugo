@@ -4,7 +4,6 @@ bg_image = "/images/net.jpg"
 categories = ["Macroeconomía"]
 date = 2021-03-19T06:00:00Z
 description = "Una breve introducción a las finanzas, mercado de valores, su funcionamiento y puntos clave para entenderlo"
-draft = true
 image = "/images/earth-1149733_1920.jpg"
 tags = ["Valores", "Finanzas"]
 title = "Breve introducción a las finanzas"
