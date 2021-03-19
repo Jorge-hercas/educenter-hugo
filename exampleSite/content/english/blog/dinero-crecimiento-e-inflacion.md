@@ -4,7 +4,6 @@ bg_image = "/images/net.jpg"
 categories = ["Macroeconomía"]
 date = 2021-03-19T06:00:00Z
 description = "El presente ensayo da un análisis detallado de las variaciones en el valor del peso mexicano en términos del tipo de cambio, la relación existente entre el crecimiento económico y el aumento de masa monetaria"
-draft = true
 image = "/images/earth-1149733_1920.jpg"
 tags = ["Tipo de cambio", "Inflación", "Dinero"]
 title = "Dinero, crecimiento e inflación"

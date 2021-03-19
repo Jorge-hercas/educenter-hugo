@@ -4,7 +4,6 @@ bg_image = "/images/net.jpg"
 categories = ["Macroeconomía"]
 date = 2021-03-19T06:00:00Z
 description = "¿Qué sabemos hasta ahora del COVID-19? ¿Cómo nos ha afectado?"
-draft = true
 image = "/images/earth-1149733_1920.jpg"
 tags = ["Reflexiones", "COVID-19"]
 title = "Reflexiones sobre el Covid-19"
