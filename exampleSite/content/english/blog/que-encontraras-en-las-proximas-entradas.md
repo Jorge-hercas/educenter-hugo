@@ -16,4 +16,4 @@ Si estás siguiendo las entradas que se suben a ésta página entonces aquí pod
 
 Pero no creas que esto será lo único que encontrarás aquí, ya que estos temas solo son el inicio y los paquetes de R y Python se actualizan constantemente, lo que significa que para el momento en el que terminemos con todos estos temas es muy posible que ya estemos abordando un segundo temario con más tópicos actualizados para la ciencia de datos.
 
-### [Descarga aquí el temario.](/images/temario.pdf)
+### [Descarga aquí el temario.](/images/temario.pdf) 
