@@ -14,4 +14,4 @@ type = "post"
 
 En esta ocasión vamos a trabajar con unos de los tipos de gráficos más interesantes y más conocidos en la macroeconomía, las finanzas y el trading: **Los gráfico de series de tiempo**. Estos son esencialmente útiles cuando queremos graficar valores, variaciones, rezagos, etc, durante ciertos periodos de tiempo, los cuales generalmente son bastante amplios ya que se quiere tener una perspectiva sobre lo que estamos graficando en cuestión. Se que esta será una de tus entradas favoritas, ya que no solo veremos una gran cantidad de gráficos y paquetes, si no que también veremos formas muy diversas de personalizarlos. ¡Comencemos!
 
-### [Mira el ejercicio completo aquí](https://bookdown.org/eljorgehdz/mejorgraficoparte5/ "graf5")
+### [Mira el ejercicio completo aquí](https://bookdown.org/eljorgehdz/mejorgraficoparte51/ "graf5")
