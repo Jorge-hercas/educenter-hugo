@@ -14,9 +14,11 @@ weekly = ""
 +++
 ## Sobre este proyecto
 
-Este proyecto tiene como objetivo mostrar las capacidades que se tienen para visualizar información estadística y geográfica con el uso de R, Flexdashboard y otros paquetes para gráficos interactivos. 
+Este proyecto tiene como objetivo mostrar las capacidades que se tienen para visualizar información estadística y geográfica con el uso de R, Flexdashboard y otros paquetes para gráficos interactivos.
 
 Con este dashboard me interesa mostrar algunos de los datos más relevantes que existen respecto a la evolución del Covid-19 en el mundo, así como su distribución geográfica.
+
+Este ejercicio se realizó con una sola base de datos, simplemente aplicando filtros y reordenando datos con funciones de Dplyr que ya he analizado en entradas pasadas.
 
 [Puedes obtener la base de datos original, la cual cuenta con más de 79,000 datos, dando click aquí](https://ourworldindata.org/coronavirus/country/mexico?country=\~MEX "datos").
 
