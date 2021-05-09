@@ -1,5 +1,5 @@
 +++
-apply_url = "https://bookdown.org/eljorgehdz/dashboard_pemexycfe/"
+apply_url = "https://bookdown.org/eljorgehdz/dashboard_covid/"
 bg_image = "/images/net.jpg"
 category = "Business Inteligence"
 date = 2021-04-03T06:00:00Z
