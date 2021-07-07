@@ -21,11 +21,3 @@ Llevo un tiempo probando diversas funciones de Shiny y todo el alcance que éste
 **_usuario: visitante_**
 
 **_contraseña: visitante1_**
-
-Te dejo algunas capturas de la app:
-
-![](/images/captura-de-pantalla-2021-07-07-a-la-s-0-42-01.png)
-
-![](/images/captura-de-pantalla-2021-07-07-a-la-s-0-42-12.png)
-
-![](/images/captura-de-pantalla-2021-07-07-a-la-s-0-42-08.png)
