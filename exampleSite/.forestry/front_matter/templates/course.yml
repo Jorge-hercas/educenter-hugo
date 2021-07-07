@@ -48,5 +48,6 @@ fields:
   label: type
   default: course
 pages:
+- exampleSite/content/english/course/curriculum-interactivo.md
 - exampleSite/content/english/course/dashboard-sobre-covid-19.md
 - exampleSite/content/english/course/un-dashboard-en-shiny.md
