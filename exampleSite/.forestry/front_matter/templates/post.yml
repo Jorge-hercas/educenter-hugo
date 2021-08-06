@@ -34,6 +34,7 @@ fields:
   default: post
 pages:
 - exampleSite/content/english/blog/antes-y-despues-de-la-crisis-del-sars-cov-2.md
+- exampleSite/content/english/blog/conectandose-a-bases-de-datos-de-mysql-en-la-nube-aws.md
 - exampleSite/content/english/blog/cual-es-el-mejor-grafico-para-cada-caso-parte-1.md
 - exampleSite/content/english/blog/cual-es-el-mejor-grafico-para-cada-caso-parte-1.md
 - exampleSite/content/english/blog/cual-es-el-mejor-grafico-para-cada-caso-parte-2.md
