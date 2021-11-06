@@ -1,5 +1,5 @@
 +++
-apply_url = " https://jorgehcas1998.shinyapps.io/covid_2020/"
+apply_url = "https://jorgehcas1998.shinyapps.io/covid_2020/"
 bg_image = "/images/net.jpg"
 category = "Business Intelligence"
 date = 2021-11-05T06:00:00Z
