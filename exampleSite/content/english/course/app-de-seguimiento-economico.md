@@ -2,7 +2,7 @@
 apply_url = "https://jorge98.shinyapps.io/Dashboardshiny/_w_bdeba849/_w_18f3255e/"
 bg_image = "/images/net.jpg"
 category = "Business Inteligence"
-date = 2021-07-15T05:00:00Z
+date = 2021-05-12T05:00:00Z
 description = "Seguimiento a variables macroeconómicas"
 duration = ""
 fee = ""
