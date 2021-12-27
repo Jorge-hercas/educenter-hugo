@@ -2,7 +2,7 @@
 apply_url = "https://jorgehcas1998.shinyapps.io/Dataton-app/"
 bg_image = "/images/net.jpg"
 category = "Estadística"
-date = ""
+date = 2021-12-27T06:00:00Z
 description = ""
 duration = ""
 fee = ""
