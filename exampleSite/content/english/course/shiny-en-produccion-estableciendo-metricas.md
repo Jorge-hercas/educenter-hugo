@@ -2,7 +2,7 @@
 apply_url = "https://jorgehcas1998.shinyapps.io/App_partrunner/?_ga=2.64280751.1814261983.1647028434-1730999912.1646105031"
 bg_image = "/images/net.jpg"
 category = "Business Inteligence"
-date = 2022-01-06T06:00:00Z
+date = 2021-10-07T05:00:00Z
 description = "¿Qué tanta utilidad puede tener una app a nivel empresarial?"
 duration = ""
 fee = ""
