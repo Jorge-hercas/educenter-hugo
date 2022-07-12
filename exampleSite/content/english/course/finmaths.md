@@ -2,7 +2,7 @@
 apply_url = "https://github.com/Jorge-hercas/FinMaths"
 bg_image = "/images/net.jpg"
 category = "r package"
-date = ""
+date = 2022-07-12T05:00:00Z
 description = "Introducción a mi nueva librería de matemáticas financieras: FinMaths"
 duration = ""
 fee = ""
